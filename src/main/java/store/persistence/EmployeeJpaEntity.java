@@ -1,4 +1,4 @@
-package ipeters.resttemplate_demo.persistence;
+package store.persistence;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

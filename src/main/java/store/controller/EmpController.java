@@ -1,7 +1,7 @@
-package ipeters.resttemplate_demo.controller;
+package store.controller;
 
-import ipeters.resttemplate_demo.persistence.EmployeeJpaEntity;
-import ipeters.resttemplate_demo.persistence.EmployeeJpaRepository;
+import store.persistence.EmployeeJpaEntity;
+import store.persistence.EmployeeJpaRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

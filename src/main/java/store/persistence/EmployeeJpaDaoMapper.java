@@ -1,9 +1,7 @@
-package ipeters.resttemplate_demo.persistence;
+package store.persistence;
 
-import ipeters.resttemplate_demo.model.Employee;
+import store.model.Employee;
 import org.mapstruct.Mapper;
-import org.mapstruct.ReportingPolicy;
-import org.springframework.context.annotation.Bean;
 
 @Mapper (componentModel = "spring")//(unmappedTargetPolicy = ReportingPolicy.WARN)
 public interface EmployeeJpaDaoMapper {

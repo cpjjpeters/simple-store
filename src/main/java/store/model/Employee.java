@@ -1,4 +1,4 @@
-package ipeters.resttemplate_demo.model;
+package store.model;
 
 /* carlpeters created on 17/12/2024 inside the package - ipeters.resttemplate_demo.resttemplate.web.model */
 

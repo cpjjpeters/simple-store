@@ -11,7 +11,7 @@
     <groupId>be.ipeters</groupId>
     <artifactId>crudapplication</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>crudapplication</name>
+    <name>simple-store-application</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -70,10 +70,11 @@
             <version>${mapstruct.version}</version>
 
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+<!--        </dependency>-->
+
     </dependencies>
 
     <build>

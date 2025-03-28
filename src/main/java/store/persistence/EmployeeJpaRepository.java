@@ -1,6 +1,5 @@
-package ipeters.resttemplate_demo.persistence;
+package store.persistence;
 
-import ipeters.resttemplate_demo.persistence.EmployeeJpaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /* carlpeters created on 22/12/2024 inside the package - ipeters.resttemplate_demo.persistence */

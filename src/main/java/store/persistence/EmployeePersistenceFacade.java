@@ -1,6 +1,6 @@
-package ipeters.resttemplate_demo.persistence;
+package store.persistence;
 
-import ipeters.resttemplate_demo.model.Employee;
+import store.model.Employee;
 import java.util.List;
 import java.util.Optional;
 

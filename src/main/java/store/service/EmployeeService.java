@@ -1,7 +1,7 @@
-package ipeters.resttemplate_demo.service;
+package store.service;
 
-import ipeters.resttemplate_demo.model.Employee;
-import ipeters.resttemplate_demo.persistence.EmployeePersistenceFacade;
+import store.model.Employee;
+import store.persistence.EmployeePersistenceFacade;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
