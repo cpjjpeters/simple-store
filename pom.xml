@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>be.ipeters</groupId>
-    <artifactId>crudapplication</artifactId>
+    <artifactId>store-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>simple-store-application</name>
     <description>Demo project for Spring Boot</description>
