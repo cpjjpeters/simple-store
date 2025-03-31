@@ -28,3 +28,5 @@ spring:
         ddl-auto: update
 stripe:
   enabled: false
+orderservice:
+  type: paypal

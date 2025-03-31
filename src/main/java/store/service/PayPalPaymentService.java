@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 /* carlpeters created on 28/03/2025 inside the package - store.service */
-@Service("paypal")
+//@Service("paypal")
 public class PayPalPaymentService  implements PaymentService{
     @Override
     public void processPayment(double amount) {

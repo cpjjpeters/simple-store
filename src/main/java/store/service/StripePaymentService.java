@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("stripe")
+//@Service("stripe")
 @Primary
 public class StripePaymentService implements PaymentService {
 
