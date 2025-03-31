@@ -8,7 +8,7 @@ public class User {
     private String password;
     private String email;
 
-    public User() {
+    public User(long l, String mail) {
     }
 
     public User(Long id, String username, String password, String email) {

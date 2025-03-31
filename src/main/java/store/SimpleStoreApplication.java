@@ -6,20 +6,28 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
+import store.model.User;
 import store.service.NotificationManager;
 import store.service.OrderService;
 import store.service.PayPalPaymentService;
 import store.service.StripePaymentService;
+import store.service.UserService;
 
 import java.util.Arrays;
 
 @SpringBootApplication
 public class SimpleStoreApplication {
     public static void main(String[] args) {
-       ConfigurableApplicationContext context =  SpringApplication.run(SimpleStoreApplication.class, args);
-        var orderService = context.getBean(OrderService.class);
-        orderService.placeOrder();
-        context.close();
+//       ConfigurableApplicationContext context =  SpringApplication.run(SimpleStoreApplication.class, args);
+//       var userService = context.getBean(UserService.class);
+//       userService.registerUser(new User(1L, "userMosh",  "mosh","mosh@dink.com"));
+//        userService.registerUser(new User(1L, "userMosh",  "mosh","mosh@dink.com"));
+
+        ApplicationContext context =  SpringApplication.run(SimpleStoreApplication.class, args);
+
+//        var orderService = context.getBean(OrderService.class);
+//        orderService.placeOrder();
+//        context.close();
     }
 
 
