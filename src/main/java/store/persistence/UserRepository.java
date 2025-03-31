@@ -1,6 +1,7 @@
 package store.persistence;
 
-import store.model.User;
+
+import store.persistence.entities.User;
 
 public interface UserRepository {
 

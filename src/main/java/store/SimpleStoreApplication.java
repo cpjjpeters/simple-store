@@ -6,12 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
-import store.model.User;
-import store.service.NotificationManager;
-import store.service.OrderService;
-import store.service.PayPalPaymentService;
-import store.service.StripePaymentService;
-import store.service.UserService;
+
 
 import java.util.Arrays;
 

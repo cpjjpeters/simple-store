@@ -26,7 +26,7 @@ public class Tag {
 
     @ManyToMany(mappedBy = "tags")
     @ToString.Exclude
-    private Set<UserJpaEntity> users = new HashSet<>();
+    private Set<User> users = new HashSet<>();
 
     public Tag(String name) {
         this.name = name;
